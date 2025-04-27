@@ -7,3 +7,11 @@ def homepage():
 @app.route("/blog")
 def blog():
     return "Blog Flask"
+
+@app.route("/contato")
+def contato():
+    return "contato Flask"
+
+@app.route("/sobre")
+def sobre():
+    return "sobre Flask"
