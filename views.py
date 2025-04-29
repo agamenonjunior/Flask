@@ -15,3 +15,7 @@ def contato():
 @app.route("/sobre")
 def sobre():
     return "sobre Flask"
+
+@app.route("/servicos")
+def sobre():
+    return "Meus servicos Flask"
