@@ -19,3 +19,9 @@ def sobre():
 @app.route("/servicos")
 def sobre():
     return "Meus servicos Flask"
+
+# Página de Dúvidas Frequentes
+@app.route("/duvidas-frequentes")
+def sobre():
+    return "duvidas-frequentes Flask"
+
