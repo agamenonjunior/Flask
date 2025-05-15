@@ -17,11 +17,11 @@ def sobre():
     return "sobre Flask"
 # Página de Serviços
 @app.route("/servicos")
-def sobre():
+def servicos():
     return "Meus servicos Flask"
 
 # Página de Dúvidas Frequentes
 @app.route("/duvidas-frequentes")
-def sobre():
+def duvidasFrequentes():
     return "duvidas-frequentes Flask"
 
